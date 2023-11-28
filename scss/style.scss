@@ -69,6 +69,7 @@ main {
 		@include adaptiv-value("font-size", 26, 20, 1);
 		margin-bottom: 20px;
 		text-align: center;
+		margin-top: 20px;
 	}
 
 	&__blocks {
@@ -158,6 +159,11 @@ main {
 	margin-bottom: 30px;
 	padding: 30px;
 	position: relative;
+	@media (max-width: 600px) {
+		& {
+			flex-direction: column;
+		}
+	}
 }
 .info__olx {
 	padding-right: 100px;
