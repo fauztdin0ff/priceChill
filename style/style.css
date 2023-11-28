@@ -106,6 +106,7 @@ main {
   border-radius: 30px;
   background-color: #fff;
   position: relative;
+  box-shadow: 0 0 15px #ccc;
 }
 .block .number {
   position: absolute;
